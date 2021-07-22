@@ -39,8 +39,8 @@ export class AppContainer extends PureComponent {
         return (<>
             
             <div className={styles.Overlay} onClick={this.readClick}>
-            <button onClick={this.startStopFunc} id="tyt">start/stop</button>
-            <button onClick={this.onConsol}>onConsol</button>
+            {/* <button onClick={this.startStopFunc} id="tyt">start/stop</button>
+            <button onClick={this.onConsol}>onConsol</button> */}
             {children}</div>
         </>)
     }
